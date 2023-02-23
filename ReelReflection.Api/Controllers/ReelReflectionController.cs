@@ -17,13 +17,13 @@ public class ReelReflectionController : ControllerBase
 
 
     [HttpGet("{title}")]
-    public async Task<ActionResult<List<Movie>>> GetMovieByTitle(string title)
+    public async Task<ActionResult<Movie>> GetMovieByTitle(string title)
     {
         return Ok(await _movieService.GetMovieByTitle(title));
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<List<Movie>>> GetMovieById(string id)
+    public async Task<ActionResult<Movie>> GetMovieById(string id)
     {
         return Ok(await _movieService.GetMovieById(id));
     }
