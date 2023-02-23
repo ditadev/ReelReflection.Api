@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReelReflection.Api", "ReelReflection.Api\ReelReflection.Api.csproj", "{885C185A-121A-4F0A-8965-85D23FA6322B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReelReflection.Model", "ReelReflection.Model\ReelReflection.Model.csproj", "{1B17DBA0-FF64-41B7-8AA0-A356A9350747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReelReflection.Features", "ReelReflection.Features\ReelReflection.Features.csproj", "{BC688433-1323-455D-B006-1A7D15B45D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReelReflection.Test", "ReelReflection.Test\ReelReflection.Test.csproj", "{BAC0E376-C44A-461D-909E-33ED1F9C6211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{885C185A-121A-4F0A-8965-85D23FA6322B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885C185A-121A-4F0A-8965-85D23FA6322B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885C185A-121A-4F0A-8965-85D23FA6322B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885C185A-121A-4F0A-8965-85D23FA6322B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B17DBA0-FF64-41B7-8AA0-A356A9350747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B17DBA0-FF64-41B7-8AA0-A356A9350747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B17DBA0-FF64-41B7-8AA0-A356A9350747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B17DBA0-FF64-41B7-8AA0-A356A9350747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC688433-1323-455D-B006-1A7D15B45D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC688433-1323-455D-B006-1A7D15B45D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC688433-1323-455D-B006-1A7D15B45D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC688433-1323-455D-B006-1A7D15B45D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC0E376-C44A-461D-909E-33ED1F9C6211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC0E376-C44A-461D-909E-33ED1F9C6211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC0E376-C44A-461D-909E-33ED1F9C6211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC0E376-C44A-461D-909E-33ED1F9C6211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
