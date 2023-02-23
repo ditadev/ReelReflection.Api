@@ -29,7 +29,7 @@ public class ReelReflectionController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<string>>> SearchHistory()
+    public async Task<ActionResult<List<Movie>>> SearchHistory()
     {
         return Ok(await _movieService.SearchHistory(null));
     }
