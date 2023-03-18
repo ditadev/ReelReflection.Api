@@ -31,14 +31,3 @@ jobs:
       - name: Generate code coverage Markdown report
         run: dotnet reportgenerator -reports:**/coverage.cobertura.xml -targetdir:./coverage -reporttypes:MarkdownSummary
 
-#      - name: Create check run with code coverage Markdown report
-#        uses: LouisBrunner/checks-action@v1.6.0
-#        if: always()
-#        with:
-#            token: ${{ secrets.GITHUB_TOKEN }}
-#            name: Reel Reflection
-#            conclusion: ${{ job.status }}
-#            output: |
-#              {"summary":"${{ steps.test.outputs.summary }}"}
-#          
-          
