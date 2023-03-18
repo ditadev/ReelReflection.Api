@@ -33,9 +33,12 @@ jobs:
 
       - name: Create check run with code coverage Markdown report
         uses: LouisBrunner/checks-action@v1.6.0
+        if: always()
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: Code coverage
-          conclusion: ${{ job.status }}
-          output: '{"summary":"Code coverage"}'
-          output_text_description_file: coverage/Summary.md
+            token: ${{ secrets.GITHUB_TOKEN }}
+            name: Test XYZ
+            conclusion: ${{ job.status }}
+            output: |
+              {"summary":"${{ steps.test.outputs.summary }}"}
+          
+          
