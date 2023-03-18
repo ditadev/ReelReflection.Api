@@ -1,4 +1,4 @@
-name: NBMS Test and Coverage
+name: ReelReflection and Coverage
 
 on:
   push:
